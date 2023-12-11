@@ -1,0 +1,26 @@
+{
+  "name": "electron-ipc",
+  "version": "1.0.0",
+  "description": "Helper to manager Electron IPC declarations and communications.",
+  "main": "dist/index.ts",
+  "scripts": {
+    "clean": "rimraf ./node_modules ./dist",
+    "build": "npm install && tsc",
+    "lint": "eslint -c .eslintrc --ext .ts .",
+    "lint:fix": "eslint -c .eslintrc --fix --ext .ts ./",
+    "test": ""
+  },
+  "repository": "",
+  "author": "Pierre Veber (root@pive.org)",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "eslint": "^8.10.0",
+    "rimraf": "^5.0.4",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "electron": "^17.1.2"
+  }
+}
